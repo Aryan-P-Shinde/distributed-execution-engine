@@ -8,7 +8,7 @@ version = "0.0.1"
 requires-python = ">=3.12"
 # shared by API and worker
 dependencies = [
-    "pydantic>=2.7",
+    "pydantic>=2.13.5",
     "sqlalchemy>=2.0",
     "psycopg[binary]>=3.1",
     "redis>=5.0",
